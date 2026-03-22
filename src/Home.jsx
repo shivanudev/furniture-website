@@ -2,10 +2,12 @@ import React from "react";
 import { Truck, CreditCard, Percent, RotateCcw,Heart, Star,Facebook, Twitter, Instagram, Youtube  } from "lucide-react";
 import { useState ,useEffect} from "react";
 import { Link } from "react-router-dom";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 
 export default function Home() {
 
+
+   const [menuOpen, setMenuOpen] = useState(false);
 // --------------------------product name----------------------------
 const products = [
   {
@@ -98,30 +100,37 @@ const [index, setIndex] = useState(0);
           <div className="homeHero-overlay"></div>
     
           {/* Navbar */}
-          <nav className="homeHero-navbar">
-            <div className="homeHero-logo">
-              <div className="homeHero-logoBox">J</div>
-            <span className="homeHero-logoText">JAGANNATH</span>
-            </div>
-    
-            <ul className="homeHero-navLinks">
-               <Link to="/"><li>Home</li></Link>
-           <Link to="/about"><li>About</li></Link>
-           <Link to="/product"><li>Product</li></Link>
-           <Link to="/contact"><li>Contact</li></Link>
-            </ul>
+         <nav className="homeHero-navbar">
 
-     <div className="whatsapp-btn">
-  <a
-    href="https://wa.me/923000000000"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaWhatsapp />
-    <span>WhatsApp</span>
-  </a>
-</div>
-      </nav>
+  <div className="homeHero-logo">
+    <div className="homeHero-logoBox">J</div>
+    <span className="homeHero-logoText">JAGANNATH</span>
+  </div>
+
+  {/* HAMBURGER */}
+  <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+    {menuOpen ? "✖" : "☰"}
+  </div>
+
+  {/* 🔥 IMPORTANT WRAPPER */}
+  <div className={`nav-container ${menuOpen ? "active" : ""}`}>
+    
+    <ul className="homeHero-navLinks">
+      <Link to="/"><li>Home</li></Link>
+      <Link to="/about"><li>About</li></Link>
+      <Link to="/product"><li>Product</li></Link>
+      <Link to="/contact"><li>Contact</li></Link>
+    </ul>
+
+    <div className="whatsapp-btn">
+      <a href="https://wa.me/923000000000">
+        WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+</nav>
 
       <div className="homeHero-content">
         <p className="subheading">HOME OFFICE FURNITURE</p>
