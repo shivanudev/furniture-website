@@ -2467,13 +2467,14 @@ form button:hover {
   .nav-container {
     position: absolute;
     top: 70px;
-    right: 0;
+    left: 0;
     width: 100%;
     background: #020617;
+
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
-    
+
     transform: translateY(-200%);
     transition: 0.4s ease;
   }
@@ -2490,10 +2491,6 @@ form button:hover {
 
   .nav-container.active .homeHero-navLinks {
     display: flex;
-  }
-
-  .whatsapp-btn {
-    margin-top: 15px;
   }
 }
 
