@@ -189,6 +189,8 @@ body {
   .hero-content h1 {
     font-size: 34px;
   }
+
+
 }
 
 @media (max-width: 480px) {
@@ -2481,12 +2483,18 @@ form button:hover {
   }
 
   .homeHero-navLinks {
+    display: none;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .nav-container.active .homeHero-navLinks {
+    display: flex;
   }
 
   .whatsapp-btn {
     margin-top: 15px;
   }
 }
+
 /* --------------------------------------humberger----------------- */
