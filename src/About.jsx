@@ -17,10 +17,10 @@ export default function About() {
     image:
       "https://dukaan.b-cdn.net/700x700/webp/projecteagle/images/7a72ffe8-e943-435b-9b76-0fe083919ca1.jpg",
   },
-  {
+   {
     title: "Minimal Scandinavian Shelf & Console Unit",
     image:
-      "https://cdn-ildpdme.nitrocdn.com/NXcgmEzhDDXbDneWSWpoVstLkHbldaZD/assets/images/optimized/rev-3ee51f2/frequip.com/wp-content/uploads/2024/11/Best-Furniture-Brands-In-India.jpg",
+      "https://frequip.com/wp-content/uploads/2024/11/Best-Furniture-Brands-In-India.jpg",
   },
   {
     title: "Modern Lounge Chair & Side Table Setup",
