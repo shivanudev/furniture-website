@@ -10,10 +10,10 @@ export default function ModernHero() {
    const [menuOpen, setMenuOpen] = useState(false);
     // -----------------------price categrioes-------------------
     const productImages = [
-  "https://sheeshamhomes.com/wp-content/uploads/2025/11/SH0301-02-RICHMOND-SOFA-SET-311.jpg",
-  "https://www.lujoluxuryliving.com/cdn/shop/files/Image_5.jpg?crop=center&height=1200&v=1747656940&width=1200",
-  "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//93/MTA-92023247/brd-44261_furniture-meja-bufet-retro-minimalis-kayu-jati-dan-rotan-simple_full01.jpg",
-  "https://rajasthalifurniture.in/cdn/shop/files/2-1.png?v=1708416137",
+  "https://images.unsplash.com/photo-1699621106755-4fe40ce95d64?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
+  "https://plus.unsplash.com/premium_photo-1764691296748-71771062fc56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1559954974-21a3fe081782?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1639159525727-e66a162b1fa5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYwfHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
 ];
 
  const [activeImage, setActiveImage] = useState(productImages[0]);
@@ -26,7 +26,7 @@ const reviews = [
   {
     name: "Bang Upin",
     role: "Interior Designer",
-    bg: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//93/MTA-92023247/brd-44261_furniture-meja-bufet-retro-minimalis-kayu-jati-dan-rotan-simple_full01.jpg",
+    bg: "https://images.unsplash.com/photo-1666876644556-05f782fe49da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     text:
       "Thank you so much, my living room now looks more elegant and modern.",
@@ -34,7 +34,7 @@ const reviews = [
   {
     name: "Ibuk Sukijan",
     role: "Home Owner",
-    bg: "https://livingshapes.in/cdn/shop/files/Restaurant_257ae21a-6d81-42f9-94d8-cf5c89c88adc.jpg?v=1768479711",
+    bg: "https://plus.unsplash.com/premium_photo-1661962718046-14c357dc5523?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     text:
       "Beautiful craftsmanship and fast delivery. My home feels luxurious now.",
@@ -42,7 +42,7 @@ const reviews = [
   {
     name: "Mpok Ina",
     role: "Architect",
-    bg: "https://img.freepik.com/premium-photo/stylish-vintage-interior-design-open-space-with-wooden-retro-cabinet-design-chair-maps-paddle-ship-cacti-plants-elegant-personal-accessories-modern-vintage-home-decor_431307-2365.jpg",
+    bg: "https://images.unsplash.com/photo-1678194332144-772b7bdd1400?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
     avatar: "https://randomuser.me/api/portraits/women/65.jpg",
     text:
       "Very comfortable and stylish. Highly recommended for modern interiors.",
@@ -59,7 +59,7 @@ const reviews = [
     description:
       "Elegant lounge-style office furniture designed for comfort and modern workspace aesthetics.",
     image:
-      "https://image.made-in-china.com/2f0j00JlPfzktDHobe/Modern-Brown-Color-Foshan-Office-Executive-Desk-Office-Furniture.webp",
+      "https://images.unsplash.com/photo-1664410462115-4cf52622dd1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ const reviews = [
     description:
       "Smart modular office setup built for flexibility, collaboration, and productivity.",
     image:
-      "https://www.stellarglobal.com/wp-content/uploads/2024/05/s1-8.webp",
+      "https://images.unsplash.com/photo-1593589281510-c0de02549a96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg5fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ const reviews = [
     description:
       "Premium executive desk and ergonomic seating designed for professional environments.",
     image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      "https://images.unsplash.com/photo-1617864719832-a4b135b80956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ const reviews = [
     description:
       "Contemporary open office furniture promoting teamwork and creative workspace flow.",
     image:
-      "https://static.vecteezy.com/system/resources/thumbnails/070/573/758/small/executive-office-with-cityscape-view-at-sunset-modern-workspace-leadership-ambience-and-corporate-success-photo.jpeg",
+      "https://images.unsplash.com/photo-1758630737403-1bda34e3f98e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D",
   },
 ];
   // -------------------product detials-----------------
@@ -185,19 +185,19 @@ const reviews = [
         <div className="benefitsBg"></div>
 
         <img
-          src="https://sheeshamhomes.com/wp-content/uploads/2025/11/SH0301-02-RICHMOND-SOFA-SET-311.jpg"
+          src="https://images.unsplash.com/photo-1623177623442-979c1e42c255?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Blue Chair"
           className="chairTop"
         />
 
         <img
-          src="https://images.unsplash.com/photo-1616627451515-cbc80e5ece35"
+          src="https://images.unsplash.com/photo-1742732303457-4d1b0ad19717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Grey Chair"
           className="chairCenter"
         />
 
         <img
-          src="https://classy.co.in/wp-content/uploads/2024/11/Hepburn-Storage-Unit-1-1024x683.png"
+          src="https://plus.unsplash.com/premium_photo-1764702359309-64bb7f271156?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Green Chair"
           className="chairBottom"
         />
