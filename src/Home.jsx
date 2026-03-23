@@ -11,38 +11,34 @@ export default function Home() {
 // --------------------------product name----------------------------
 const products = [
   {
-    title: "Barrel Chair Etta Avenue",
-    image: "https://i.pinimg.com/736x/3c/09/9f/3c099f65e98116409f3732fbb9f2702f.jpg",
-   
-    price: "$200",
+    title: "Executive Brown Leather Chair",
+    image: "https://plus.unsplash.com/premium_photo-1732721750677-b9e410a2c335?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlJTIwZnVybml0dXJlJTIwaW1hZ2Vzc3xlbnwwfHwwfHx8MA%3D%3D",
+    price: "$250",
   },
   {
-    title: "Golden Living Room Chair Set",
-    image: "https://media.designcafe.com/wp-content/uploads/2022/08/25190515/interior-design-cost-in-bangalore.jpg",
-    
-    price: "$300",
-  },
-  {
-    title: "Luxury Bedroom Set",
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdnP-FLb9wZxxzJ4dJ6lX-U-ojyJv0s3VuPUIT4058yaJVA78S8VXYK4tp3L8LaRUEDx4JyRi2XzYvpFP5LFrM1vSehTBIUKoZtfFyNDB3Xr9TPxx7at8njXeoQ7w-rQXQHsXC4AzZiD042w7jmOBdJSD_1d1zs2VAAvvDuJO3g3OKz87m8sds9f6lU4s/s1600/bed-set-999.webp",
-    price: "$1500",
-  },
-  {
-    title: "Century Modern Wooden Sofa",
-    image: "https://m.media-amazon.com/images/I/61cEjmXGHUL._AC_UF894,1000_QL80_.jpg",
+    title: "Solid Oak Office Desk",
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1000&auto=format&fit=crop",
     price: "$450",
   },
   {
-    title: "Modern Velvet Accent Chair",
-    image: "https://oakandpineonline.co.uk/wp-content/uploads/2023/04/interior-design.jpg",
-   
-    price: "$200",
+    title: "Professional Conference Table",
+    image: "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80",
+    price: "$1200",
   },
   {
-    title: "Rose Gold Designer Coffee Table",
-    image: "https://lineafurniture.com/wp-content/uploads/2025/02/bloom-coffee-table-7-500x500.webp",
-   
-    price: "$200",
+    title: "Wooden Document Organizer",
+    image: "https://images.unsplash.com/photo-1594620302200-9a762244a156?q=80&w=1000&auto=format&fit=crop",
+    price: "$180",
+  },
+  {
+    title: "Brown Leather Office Sofa",
+    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+    price: "$650",
+  },
+  {
+    title: "Classic Wooden Bookshelf",
+    image: "https://images.unsplash.com/photo-1704655295066-681e61ecca6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
+    price: "$320",
   },
 ];
 // --------------------------product name----------------------------
@@ -87,11 +83,11 @@ const [index, setIndex] = useState(0);
 
 // ---------------slider----------------------------
   const images = [
-    "https://www.minotti.com/media/immagini/47689_n_BEZIER_01.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmLx2OFR1Y4ng5MYF-ZIpY88d0hbVeCoMQA&s",
-    "https://www.lujoluxuryliving.com/cdn/shop/files/Image_5.jpg?crop=center&height=1200&v=1747656940&width=1200",
-    "https://www.vigfurniture.com/media/wysiwyg/vig-1-new_[Yolonda].jpg",
-    "https://m.media-amazon.com/images/I/71u3F2NZ9gL._AC_UF894,1000_QL80_.jpg",
+    "https://images.unsplash.com/photo-1664410462115-4cf52622dd1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1662018107667-55df38b46590?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1715678119409-e33b527f68c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
+    "https://plus.unsplash.com/premium_photo-1721566222339-db243e16f9f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1496664444929-8c75efb9546f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3N8ZW58MHx8MHx8fDA%3D",
   ];
 // ---------------slider----------------------------
   return (
@@ -155,7 +151,7 @@ const [index, setIndex] = useState(0);
         {/* Top Left */}
         <div className="card">
           <img
-            src="https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+            src="https://images.unsplash.com/photo-1608235343218-64f99c70baba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzfGVufDB8fDB8fHww"
             alt="Home Accessories"
           />
           <div className="overlay-box">
@@ -168,7 +164,7 @@ const [index, setIndex] = useState(0);
         {/* Right Tall */}
         <div className="card tall">
           <img
-            src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+            src="https://images.unsplash.com/photo-1675683446068-a2d6c8f23a1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzfGVufDB8fDB8fHww"
             alt="Luxurious Product"
           />
           <div className="overlay-box">
@@ -181,7 +177,7 @@ const [index, setIndex] = useState(0);
         {/* Bottom Left */}
         <div className="card">
           <img
-            src="https://m.media-amazon.com/images/I/61u+uVp2M1L.jpg"
+            src="https://images.unsplash.com/photo-1699831302264-936de1cd016a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzfGVufDB8fDB8fHww"
             alt="Modern Furniture"
           />
           <div className="overlay-box">
@@ -285,7 +281,7 @@ const [index, setIndex] = useState(0);
 
       <div className="who-right">
         <img
-          src="https://horgans.com.au/cdn/shop/collections/Horgans_28_10_2037283.jpg?v=1756346319&width=2400"
+          src="https://images.unsplash.com/photo-1615875388242-46b822b09cda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZnVybml0dXJlJTIwaW1hZ2VzcyUyMGJyb3dufGVufDB8fDB8fHww"
           alt="Modern Furniture Office"
         />
       </div>
@@ -335,7 +331,7 @@ const [index, setIndex] = useState(0);
   <section className="contact">
       <div className="contact-left">
         <img
-          src="https://www.minotti.com/media/immagini/50142_z_01BEZIER.jpg"
+          src="https://plus.unsplash.com/premium_photo-1674165227234-f47a526fb0ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Modern Office Furniture"
         />
       </div>
