@@ -10,32 +10,32 @@ export default function About() {
   {
     title: "Contemporary Living Room Sofa Arrangement",
     image:
-      "https://blog.sothebysrealty.ae/hubfs/Imported_Blog_Media/2853d531-b1b3-4964-9908-d1de16713688-4-Oct-12-2025-10-00-52-3824-AM.jpg",
+      "https://images.unsplash.com/photo-1663811396925-26657973aa68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA2fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Rustic Wooden Storage Cabinet Collection",
     image:
-      "https://dukaan.b-cdn.net/700x700/webp/projecteagle/images/7a72ffe8-e943-435b-9b76-0fe083919ca1.jpg",
+      "https://plus.unsplash.com/premium_photo-1661963335534-cfa2e8a0e7e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE5fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Minimal Scandinavian Shelf & Console Unit",
     image:
-      "https://frequip.com/wp-content/uploads/2024/11/Best-Furniture-Brands-In-India.jpg",
+      "https://images.unsplash.com/photo-1711122842414-e73b0a0eecc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMzfHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Modern Lounge Chair & Side Table Setup",
     image:
-      "https://www.shutterstock.com/image-photo/raw-textures-natural-elements-create-600nw-2704495723.jpg",
+      "https://plus.unsplash.com/premium_photo-1732721753361-8849c5cc8f37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Elegant Wooden Console Table Design",
     image:
-      "https://images.bergerpaints.com/s3fs-public/2024-04/beautiful-painted-furniture-1024x536_0.jpg?VersionId=RkdM5s0Sqhi1ZhRJc.DiBwHX1fzF7LLE&format=webp&width=3840&quality=75",
+      "https://images.unsplash.com/photo-1697530152990-2c47d3cf7d7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU3fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Artisan Decorative Sideboard with Neutral Decor",
     image:
-      "https://thumbs.dreamstime.com/b/stylish-interior-design-wooden-commode-stool-dried-flowers-vase-unique-decoration-carpet-mock-up-poster-frame-elegant-209596488.jpg",
+      "https://plus.unsplash.com/premium_photo-1764695809500-369078213e26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjY3fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D",
   },
 ];
 
@@ -100,21 +100,21 @@ export default function About() {
         <div className="aboutLuxuryImages">
           <img
             className="aboutMainImage"
-            src="https://shinewoodart.com/cdn/shop/files/Brown.jpg?v=1767898707"
+            src="https://images.unsplash.com/photo-1618220985423-db5473de7fb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
             alt="Main Furniture"
           />
-
+{/* 
           <img
             className="aboutSmallImage topImage"
-            src="https://assets-news.housing.com/news/wp-content/uploads/2023/02/08055421/wooden-furniture-design3.png"
+            src="https://images.unsplash.com/photo-1584798448292-5e7ba13a0826?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk3fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D"
             alt="Interior"
-          />
+          /> */}
 
-          <img
-            className="aboutSmallImage bottomImage"
-            src="https://www.vrainteriors.com/wp-content/uploads/2024/02/Modern-Living-Room-Furniture-Ideas-Hero-scaled-1.jpg"
-            alt="Sofa"
-          />
+              {/* <img
+                className="aboutSmallImage bottomImage"
+                src="https://plus.unsplash.com/premium_photo-1732721753209-ba32e50818dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDMzfHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D"
+                alt="Sofa"
+              /> */}
         </div>
 
         {/* RIGHT CONTENT */}
@@ -219,7 +219,7 @@ export default function About() {
         {/* RIGHT IMAGE */}
         <div className="qualityRight">
           <img
-            src="https://www.lujoluxuryliving.com/cdn/shop/files/Image_5.jpg?crop=center&height=1200&v=1747656940&width=1200"
+            src="https://images.unsplash.com/photo-1584798448292-5e7ba13a0826?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk3fHxvZmZpY2UlMjBmdXJuaXR1cmUlMjBpbWFnZXNzJTIwYnJvd258ZW58MHx8MHx8fDA%3D"
             alt="Furniture"
           />
         </div>
@@ -233,7 +233,7 @@ export default function About() {
       {/* LEFT IMAGE */}
       <div className="newsLeft">
         <img
-          src="https://urbangalleria.com/cdn/shop/files/furniture.png?v=1758695655"
+          src="https://plus.unsplash.com/premium_photo-1720884611740-f5e807d7c77e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9mZmljZSUyMGZ1cm5pdHVyZSUyMGltYWdlc3MlMjBicm93bnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Furniture Sofa"
         />
       </div>
